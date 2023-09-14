@@ -36,7 +36,7 @@ print(df_table)
 
 df_table.to_csv(f'{path}/РНИС.xlsx', index=False, encoding='CP1251')
 
-# conn = psycopg2.connect(host='192.168.237.25', port='5432', user='postgres', password='postgres', database='scnt')
+# conn = psycopg2.connect(host='', port='5432', user='', password='', database='')
 # cursor = conn.cursor()
 
 # for index, row in df.iterrows():
