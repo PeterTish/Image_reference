@@ -48,5 +48,5 @@ df_table.to_csv(f'{path}/РНИС.xlsx', index=False, encoding='CP1251')
 # conn.close()
 
 
-header=True
+
 
