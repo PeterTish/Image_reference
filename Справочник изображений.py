@@ -4,7 +4,7 @@ import pandas as pd
 import psycopg2
 from pprint import pprint
 
-path = r'C:\Users\ptishchenko\Desktop\Новая папка'
+path = r''
 
 names_list = [os.path.splitext(filename)[0] for filename in os.listdir(path)]
 files_list = os.listdir(path)
